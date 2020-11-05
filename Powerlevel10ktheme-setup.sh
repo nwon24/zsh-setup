@@ -8,6 +8,7 @@ wget "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20
 wget "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf"
 sudo cp *Meslo* /usr/share/fonts/TTF
 fc-cache -f
+echo 'source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
 chsh $USER
 echo 'You know have to restart your terminal emulator. When you restart, make sure to change the font to one of the MesloLGS NF fonts before proceeding with config.'
 
